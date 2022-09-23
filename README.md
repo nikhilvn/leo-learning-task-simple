@@ -18,7 +18,7 @@ cd leo-learning-task-simple
 npm install
 ```
 
-### Steps for running the 
+### Steps for running the code
 
 To view the output, run the following
 
