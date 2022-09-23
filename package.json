@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "js:run": "node dist/app.js",
+    "ts:watch": "tsc -w",
+    "ts:build": "tsc",
+    "start": "tsc && node dist/app.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
+}
