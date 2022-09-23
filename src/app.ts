@@ -22,7 +22,15 @@ function calculateCheckoutAmount(cartItems: Item[]) {
   return totalAmount;
 }
 
+function formatAmount(amount: number) {
+  if (amount > 100) {
+    return `£${amount / 100}`;
+  } else {
+    return `${amount}p`;
+  }
+}
+
 const cart: Item[] = ["Apple", "Apple", "Orange", "Apple"];
 const amount = calculateCheckoutAmount(cart);
 
-console.log(amount);
+console.log(formatAmount(amount));
